@@ -64,11 +64,6 @@
     .img-description{
         margin-top: 20px;
     }
-
-    imput{
-        background: #444343;
-        
-    }
     
     /*My plans section styles*/
 
@@ -125,3 +120,72 @@
         color: #005FAC;
     }
     
+
+    .footer-section{
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color:black;
+       gap:50px;
+       position: relative; /*doing here*/
+    }
+
+    .future{
+        width: 50%;
+    }
+
+    .footer-title{
+        color: white;
+        margin-top: 20px;
+        margin-left: 15px;
+        /* text-align: center; */
+    }
+
+   .future p{
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: justify;
+   }
+
+   .future img{
+    margin-top: 10px;
+    margin-left: 15px;
+   }
+
+   /*footer section styling start from here*/
+
+   .subscribe{
+    width: 50%;
+   }
+
+  
+   .subscribe h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   
+   input{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid lightcoral;
+    position: absolute;/*doing here*/
+    margin-left: 130px;
+    padding-left: 10px;
+  }
+   
+
+
+   .btn-subscribe{
+    background-color: #005FAC;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 170px;
+   
+   }
