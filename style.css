@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 /*banner-section styles*/
@@ -44,7 +45,7 @@
     color: #005FAC;
     border-radius: 5px;
     padding: 10px;
-    margin-left: 700px; /*I can't understand it*/
+    margin-left: 700px; 
     box-shadow: 25px;
 }
     
@@ -67,9 +68,7 @@
 
     .img-description input{
         display: flex;
-        /* margin-left: 30px; */
-        
-
+      
     }
 
     .img-description label{
@@ -83,12 +82,14 @@
         text-align: center;
         margin-top: 25px;
         margin-bottom: 25px;
+        background-color: gainsboro;
     }
 
     .plan-section{
         display: flex;
         gap: 15px;
         margin-left: 25px;
+        background-color: gainsboro;
     }
 
     .plan-section img{
@@ -141,7 +142,7 @@
         align-items: center;
         background-color:black;
        gap:50px;
-       position: relative; /*doing here*/
+       position: relative; 
     }
 
     .future{
@@ -152,7 +153,7 @@
         color: white;
         margin-top: 20px;
         margin-left: 15px;
-        /* text-align: center; */
+        
     }
 
    .future p{
@@ -174,16 +175,16 @@
     text-align: center;
     margin-top: 35px;
     font-size: 30px;
+    background-color: gainsboro;
    }
 
     .extra-section{
         display: flex;
-        /* margin-top: 30px; */
-        /* position: relative; */
-        /* width: 100%; */
         gap: 30px;
+        background-color: gainsboro;
         
     }
+      
 
     .plan-text-description{
         text-align: justify;
@@ -230,14 +231,13 @@
   }
    
 
-
-   .btn-subscribe{
-    background-color: #005FAC;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    margin-top: 30px;
-    margin-left: 170px;
-   
-   }
+  .btn-subscribe{
+   background-color: #005FAC;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   margin-top: 30px;
+   margin-left: 170px;
+  
+  }
